@@ -1,0 +1,13 @@
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.exe
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.deps.json
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.runtimeconfig.json
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.runtimeconfig.dev.json
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.dll
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.pdb
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.csprojAssemblyReference.cache
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.AssemblyInfoInputs.cache
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.AssemblyInfo.cs
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.dll
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.pdb
+C:\Users\Professional\Desktop\GitSave\Snake\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.genruntimeconfig.cache
