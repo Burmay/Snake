@@ -11,16 +11,13 @@ namespace Lessons
             Console.SetBufferSize(80, 25);
 
             HorisontalLine Upline = new HorisontalLine(0, 78, 0, '%');
-            Upline.Drow();
-
             VerticallLine LeftLine = new VerticallLine(0, 24, 0, '%');
-            LeftLine.Drow();
-
             HorisontalLine DownLine = new HorisontalLine(0, 79, 24, '%');
-            DownLine.Drow();
-
             VerticallLine RightLine = new VerticallLine(0, 24, 78, '%');
+            Upline.Drow();
+            LeftLine.Drow();
             RightLine.Drow();
+            DownLine.Drow();
 
             Console.ReadLine();
 

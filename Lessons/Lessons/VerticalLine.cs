@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Lessons
 {
-    class VerticallLine
+    class VerticallLine : Figure
     {
-        List<Point> pList;
         public VerticallLine(int yUp, int yDown, int x, char sym)
         {
             pList = new List<Point>();
@@ -15,14 +14,6 @@ namespace Lessons
                 Point p = new Point(x, i, sym);
                 pList.Add(p);
 
-            }
-        }
-
-        public void Drow()
-        {
-            foreach (Point p in pList)
-            {
-                p.Draw();
             }
         }
     }
