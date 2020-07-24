@@ -21,21 +21,19 @@ namespace Lessons
             DownLine.Drow();
 
             Point a = new Point(10, 10, '*');
-            Snake snake = new Snake(a, 4, Direction.RIGHR);
+            Snake snake = new Snake(a, 7, Direction.RIGHR);
             snake.Drow();
-            snake.Move();
-            Thread.Sleep(300);
-            snake.Move();
-            Thread.Sleep(300);
-            snake.Move();
-            Thread.Sleep(300);
-            snake.Move();
-            Thread.Sleep(300);
-            snake.Move();
-            Thread.Sleep(300);
 
-            Console.ReadLine();
-
+            while (true)
+            {
+                if (Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    Snake.HandleKey(key.Key);
+                }
+                Thread.Sleep(100);
+                snake.Move();
+            }
         }
     }
 }
