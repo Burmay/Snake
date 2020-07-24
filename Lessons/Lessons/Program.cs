@@ -7,30 +7,23 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(4, 5, '@');
-            p1.Draw();
+            Console.SetWindowSize(80, 25);
+            Console.SetBufferSize(80, 25);
 
-            Point p2 = new Point(2, 1, '^');
-            p2.Draw();
+            HorisontalLine Upline = new HorisontalLine(0, 78, 0, '%');
+            Upline.Drow();
 
-            Point p3 = new Point(7, 10, '!');
-            p3.Draw();
+            VerticallLine LeftLine = new VerticallLine(0, 24, 0, '%');
+            LeftLine.Drow();
 
-            List<Point> pList = new List<Point>();
-            pList.Add(p1);
-            pList.Add(p2);
-            pList.Add(p3);
-/*  Пример цикла вывода списка на экран
-            foreach (Point i in pList)
-            {
-                Console.WriteLine(i);
-            }
+            HorisontalLine DownLine = new HorisontalLine(0, 79, 24, '%');
+            DownLine.Drow();
 
-    int x = numlist[0] - задать переменной х значение в данной ячейке списка
-    pList.RemoveAt(0) - удалить ячейку списка под номером 
-*/
+            VerticallLine RightLine = new VerticallLine(0, 24, 78, '%');
+            RightLine.Drow();
 
             Console.ReadLine();
+
         }
     }
 }
