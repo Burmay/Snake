@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Lessons
 {
@@ -20,8 +21,18 @@ namespace Lessons
             DownLine.Drow();
 
             Point a = new Point(10, 10, '*');
-            Snake snake = new Snake(a, 4, Direction.DOWN);
+            Snake snake = new Snake(a, 4, Direction.RIGHR);
             snake.Drow();
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
+            snake.Move();
+            Thread.Sleep(300);
 
             Console.ReadLine();
 
